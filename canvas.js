@@ -29,7 +29,7 @@ window.addEventListener('load', () => {
    window.addEventListener('mousemove', function(e) {
       mouse.x = e.x;
       mouse.y = e.y;
-      for (let i = 0; i < 2; i++) {
+      for (let i = 0; i < 5; i++) {
          particleArray.push(new Particle());
       }
    })
@@ -41,8 +41,7 @@ window.addEventListener('load', () => {
          this.size = Math.random() * 20 + 1;
          this.speedX = Math.random() * 3 - 1;
          this.speedY = Math.random() * 3 - 1;
-         // this.color = 'hsl(' + hue + ', 100%, 50%)';
-         this.color = 'white';
+         this.color = 'hsl(' + hue + ', 100%, 50%)';
       }
       update() {
          this.x += this.speedX;
