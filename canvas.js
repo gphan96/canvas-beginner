@@ -41,7 +41,8 @@ window.addEventListener('load', () => {
          this.size = Math.random() * 20 + 1;
          this.speedX = Math.random() * 3 - 1;
          this.speedY = Math.random() * 3 - 1;
-         this.color = 'hsl(' + hue + ', 100%, 50%)';
+         // this.color = 'hsl(' + hue + ', 100%, 50%)';
+         this.color = 'white';
       }
       update() {
          this.x += this.speedX;
