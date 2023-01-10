@@ -16,4 +16,5 @@ https://gphan96.github.io/canvas-beginner/canvas5/
 # 
 https://gphan96.github.io/canvas-beginner/canvas6/
    - run the server with nodejs
-   - check out free assets at bevouliin.com
+   - free assets at https://bevouliin.com/
+   - JS courses and background assets at https://www.youtube.com/c/Frankslaboratory
